@@ -23,5 +23,5 @@ void generic_main(void) {
     //sched_add_task(sched_new_task(debugcon_entry, "bentobox debug shell"), NULL);
     spawn("/bin/sh", 0, NULL, NULL);
     //spawn("/bin/fork", 0, NULL, NULL);
-	sched_start_all_cores();z
+	sched_start_all_cores();
 }
